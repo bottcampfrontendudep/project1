@@ -1,0 +1,160 @@
+body{
+ margin: 0px;
+}
+
+#inicio{
+ position: sticky;
+ background-color: black;
+ opacity: 0.80;
+ top: 0px;
+ z-index: 2;
+}
+
+header img{
+ width: 110px;
+}
+
+header nav, header nav ul, header nav ul li{
+ display: inline;
+}
+
+header nav{
+ position: relative;
+ left: 10px;
+ top: -50px;
+}
+
+header nav ul li a{
+ text-decoration: none;
+ padding: 5px;
+ margin-right: 5px;
+ color: white;
+ font-size: 16px;
+}
+header nav ul li a:hover{
+ background-color: rgb(7, 7, 78);
+ border-radius: 5px;
+}
+
+#Banner{
+ position: relative;
+ height: 500px;
+ z-index: -1;
+}
+
+section#Banner img{
+ position: absolute;
+ top: -250px;
+ width: 100%;
+
+}
+
+#nosotros{
+ 
+ margin: 170px 0px 0px 0px;
+ background-color: rgb(1, 16, 26);
+}
+
+h1.titulo_seccion{
+ font-size: 50px;
+ color: aliceblue;
+ margin-left: 20px;
+}
+
+div.equipo{
+ position: relative;
+}
+
+div.equipo h1, div.equipo p{
+ display: inline;
+}
+
+div.equipo img{
+ width: 300px;
+ position: relative;
+ margin: 30px;
+
+}
+
+div.equipo h1{
+ position: absolute;
+ top: 35px;
+ font-size: 30px;
+ color: snow;
+}
+
+div.equipo p{
+ position: absolute;
+ top: 100px;
+ color: aliceblue;
+ font-size: 18px;
+ text-align: justify;
+ margin-right: 120px;
+}
+
+#servicios{
+ margin: 0px;
+ position: relative;
+ height: 600px;
+}
+
+#titulo_servicios{
+ font-size: 50px;
+ margin-left: 20px;
+}
+
+div.servicio{
+ position: relative;
+ margin: 0px 50px;
+}
+
+div.servicio,div.servicio h1, div.servicio p{
+ display: inline;
+}
+
+
+div.servicio img{
+ width: 300px;
+ margin-left: 30px;
+}
+div.servicio h1{
+ position: absolute;
+ top: 20px;
+ left: 90px;
+}
+div.servicio p{
+ position: absolute;
+ top: 70px;
+ left: 0px;
+ text-align: justify;
+ margin: 10px;
+}
+
+#contactanos{
+ background-color: rgb(1, 16, 26);
+ position: relative;
+ height: 270px;
+}
+
+#contactanos form{
+ position: absolute;
+ padding: 80px 80px 120px 250px;
+ top: 50px
+}
+
+form label{
+ color: azure;
+ margin: 20px;
+}
+
+
+#whatsapp{
+ position: fixed;
+ width: 300px;
+ bottom: 0;
+ right: 0;
+}
+aside a img{
+ margin: 0px 0px 0px 65%;
+ width: 60px;
+}
